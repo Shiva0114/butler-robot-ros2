@@ -1,0 +1,25 @@
+# ROS2 build folders
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+
+# ROS bag files
+*.db3
+
+# Temporary files
+*.swp
+*.tmp
+
+# Linux/Mac
+.DS_Store
+Thumbs.db

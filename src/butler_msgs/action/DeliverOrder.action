@@ -1,0 +1,15 @@
+string[] table_ids
+bool require_kitchen_confirm
+bool require_table_confirm
+float64 kitchen_timeout_sec
+float64 table_timeout_sec
+---
+bool success
+string message
+string[] delivered_tables
+string[] skipped_tables
+---
+string current_state
+string current_target
+string[] remaining_tables
+float64 elapsed_sec

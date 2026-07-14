@@ -1,0 +1,9 @@
+string[] table_ids
+bool require_kitchen_confirm
+bool require_table_confirm
+float64 kitchen_timeout_sec
+float64 table_timeout_sec
+---
+bool accepted
+string order_id
+string message
